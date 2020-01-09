@@ -1,0 +1,15 @@
+{
+    "name": "Getting Started Example",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "permissions": [ "alarms","notifications","storage","declarativeContent","activeTab","https://sapimprovementfinder.com/api/contents/"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+      "web_accessible_resources": [
+        "log.png"
+    ],
+   
+    "manifest_version": 2
+  }
